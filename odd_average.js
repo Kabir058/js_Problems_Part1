@@ -1,3 +1,5 @@
+// calculate average of odd numbers from an array.
+
 function oddAverage(numbers)
 {
     let nmbr=[];
@@ -12,7 +14,8 @@ function oddAverage(numbers)
     for(let num of nmbr)
     {
         sum+= num;
-    } return sum/ nmbr.length;
+    } console.log(`sum is ${sum} and total digits are ${nmbr.length}` )
+    return sum/ nmbr.length;
     
 }
 
